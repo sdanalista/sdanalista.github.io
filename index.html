@@ -3,78 +3,73 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>SD Analista - Canal de Telegram</title>
+  <title>SD Analista</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2111/2111646.png">
   <style>
     body {
       margin: 0;
       padding: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
-      color: white;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url('https://media.giphy.com/media/26tOZ42Mg6pbTUPHW/giphy.gif') no-repeat center center fixed;
+      background-size: cover;
+      color: #ffffff;
       text-align: center;
     }
-    header {
-      padding: 20px;
-      background-image: url('https://media.giphy.com/media/VbnUQpnihPSIgIXuZv/giphy.gif');
-      background-size: cover;
-      background-position: center;
-      height: 200px;
+    .container {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 40px 20px;
+      max-width: 700px;
+      margin: 100px auto;
+      border-radius: 15px;
     }
     h1 {
-      margin-top: 20px;
-      font-size: 2.5em;
-      color: #00ffcc;
+      font-size: 36px;
+      color: #00aaff;
     }
     p {
-      font-size: 1.2em;
-      margin: 15px 30px;
+      font-size: 20px;
+      margin: 20px 0;
     }
-    .lista {
-      text-align: left;
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+    .telegram-button {
       display: inline-block;
-      margin-top: 20px;
-      font-size: 1.1em;
-    }
-    .boton {
-      margin-top: 30px;
-    }
-    .boton a {
+      margin-top: 25px;
+      padding: 15px 30px;
+      background-color: #0088cc;
+      color: white;
+      font-size: 18px;
       text-decoration: none;
-      background: #00ffcc;
-      padding: 15px 25px;
-      color: #000;
       border-radius: 8px;
-      font-weight: bold;
-      font-size: 1.1em;
-      display: inline-flex;
-      align-items: center;
-      transition: 0.3s;
+      transition: background-color 0.3s ease;
     }
-    .boton a:hover {
-      background: #00bba1;
+    .telegram-button:hover {
+      background-color: #0071a1;
     }
-    .boton img {
-      width: 24px;
-      height: 24px;
-      margin-left: 10px;
+    .icon {
+      vertical-align: middle;
+      margin-right: 8px;
     }
   </style>
 </head>
 <body>
-  <header></header>
-  <h1>SD ANALISTA</h1>
-  <p>Bienvenido a <strong>SD Analista</strong> donde cada día es una oportunidad de ganar, yo ya lo estoy haciendo, ahora te toca a ti</p>
-  
-  <div class="lista">
-    <p>✅ Los mejores análisis con el 95% de efectividad</p>
-    <p>✅ Combinadas fijas</p>
-    <p>✅ Picks gratis diarios</p>
-  </div>
-
-  <div class="boton">
-    <a href="https://t.me/+b2BE6XaR178yNmNh" target="_blank">
+  <div class="container">
+    <h1>SD ANALISTA</h1>
+    <p>Bienvenido a SD Analista, donde cada día es una oportunidad de ganar.<br>Yo ya lo estoy haciendo… ahora te toca a ti.</p>
+    <ul>
+      <li>✅ Los mejores análisis con el 95% de efectividad</li>
+      <li>✅ Combinadas fijas</li>
+      <li>✅ Picks gratis diarios</li>
+    </ul>
+    <a class="telegram-button" href="https://t.me/+b2BE6XaR178yNmNh" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram" class="icon" width="24" height="24">
       Únete a mi canal gratis aquí
-      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram Icon">
     </a>
   </div>
 </body>
