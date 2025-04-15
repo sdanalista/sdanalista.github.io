@@ -1,97 +1,86 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>SD Analista</title>
-  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2111/2111646.png">
   <style>
     body {
       margin: 0;
       padding: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: url('https://media.tenor.com/KqQ4BU92NwsAAAAC/futbol-goal.gif') no-repeat center center fixed;
+      background-image: url('https://images.unsplash.com/photo-1590080876394-df3e3b7b8ff4?auto=format&fit=crop&w=1950&q=80');
       background-size: cover;
-      color: #ffffff;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: white;
       text-align: center;
     }
 
-    .container {
-      background-color: rgba(0, 0, 0, 0.6);
-      padding: 40px 20px;
-      max-width: 700px;
-      margin: 100px auto;
-      border-radius: 15px;
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 50px 20px;
+      min-height: 100vh;
     }
 
     h1 {
-      font-size: 36px;
-      color: #00aaff;
+      font-size: 3em;
+      color: #00BFFF;
+      margin-bottom: 10px;
     }
 
-    p {
-      font-size: 20px;
-      margin: 20px 0;
+    h2 {
+      font-size: 1.3em;
+      font-weight: 400;
+      margin-bottom: 30px;
     }
 
     ul {
-      list-style: none;
-      padding-left: 0;
       text-align: left;
-      max-width: 600px;
-      margin: 0 auto;
-    }
-
-    ul li {
-      font-size: 18px;
-      margin: 10px 0;
-      padding-left: 30px;
-      position: relative;
-    }
-
-    ul li::before {
-      content: "✅";
-      position: absolute;
-      left: 0;
-      top: 0;
-    }
-
-    .telegram-button {
       display: inline-block;
-      margin-top: 25px;
-      padding: 15px 30px;
+      font-size: 1.1em;
+      line-height: 1.8em;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      display: inline-block;
       background-color: #0088cc;
       color: white;
-      font-size: 18px;
+      padding: 15px 25px;
       text-decoration: none;
-      border-radius: 8px;
+      font-weight: bold;
+      border-radius: 5px;
+      font-size: 1.2em;
       transition: background-color 0.3s ease;
     }
 
-    .telegram-button:hover {
-      background-color: #0071a1;
+    .btn:hover {
+      background-color: #005f87;
     }
 
     .icon {
-      vertical-align: middle;
-      margin-right: 8px;
+      margin-left: 10px;
+      font-size: 1.3em;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>SD ANALISTA</h1>
-    <p>Bienvenido a SD Analista, donde cada día es una oportunidad de ganar.<br>Yo ya lo estoy haciendo… ahora te toca a ti.</p>
+  <div class="overlay">
+    <h1>SD ANALISTA 👌🏅</h1>
+    <h2>Bienvenido a SD Analista donde cada día es una oportunidad de ganar, yo ya lo estoy haciendo… ahora te toca a ti 🔥</h2>
+
     <ul>
-      <li>Los mejores análisis con el 95% de efectividad</li>
-      <li>Combinadas fijas</li>
-      <li>Picks gratis diarios</li>
+      <li>✅ Los mejores análisis con el 95% de efectividad</li>
+      <li>✅ Combinadas fijas</li>
+      <li>✅ Picks gratis diarios</li>
     </ul>
-    <a class="telegram-button" href="https://t.me/+b2BE6XaR178yNmNh" target="_blank">
-      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram" class="icon" width="24" height="24">
+
+    <br />
+    <a href="https://t.me/+b2BE6XaR178yNmNh" target="_blank" class="btn">
       Únete a mi canal gratis aquí
+      <span class="icon">📲</span>
     </a>
   </div>
 </body>
 </html>
-
