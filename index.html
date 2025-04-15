@@ -10,41 +10,55 @@
       margin: 0;
       padding: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: url('https://i.pinimg.com/originals/c2/9b/9e/c29b9e5db0f826df4181c0dc03e9ff67.gif') no-repeat center center fixed;
+      background: url('https://media.tenor.com/KqQ4BU92NwsAAAAC/futbol-goal.gif') no-repeat center center fixed;
       background-size: cover;
       color: #ffffff;
+      text-align: center;
     }
+
     .container {
-      background-color: rgba(0, 0, 0, 0.7);
-      padding: 40px 25px;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 40px 20px;
       max-width: 700px;
       margin: 100px auto;
       border-radius: 15px;
-      text-align: center;
     }
+
     h1 {
-      font-size: 38px;
+      font-size: 36px;
       color: #00aaff;
-      margin-bottom: 20px;
     }
+
     p {
       font-size: 20px;
-      margin-bottom: 25px;
+      margin: 20px 0;
     }
+
     ul {
       list-style: none;
-      padding: 0;
+      padding-left: 0;
       text-align: left;
+      max-width: 600px;
       margin: 0 auto;
-      max-width: 500px;
     }
+
     ul li {
       font-size: 18px;
-      margin: 12px 0;
+      margin: 10px 0;
+      padding-left: 30px;
+      position: relative;
     }
+
+    ul li::before {
+      content: "✅";
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+
     .telegram-button {
       display: inline-block;
-      margin-top: 30px;
+      margin-top: 25px;
       padding: 15px 30px;
       background-color: #0088cc;
       color: white;
@@ -53,9 +67,11 @@
       border-radius: 8px;
       transition: background-color 0.3s ease;
     }
+
     .telegram-button:hover {
       background-color: #0071a1;
     }
+
     .icon {
       vertical-align: middle;
       margin-right: 8px;
@@ -67,9 +83,9 @@
     <h1>SD ANALISTA</h1>
     <p>Bienvenido a SD Analista, donde cada día es una oportunidad de ganar.<br>Yo ya lo estoy haciendo… ahora te toca a ti.</p>
     <ul>
-      <li>✅ Los mejores análisis con el 95% de efectividad</li>
-      <li>✅ Combinadas fijas</li>
-      <li>✅ Picks gratis diarios</li>
+      <li>Los mejores análisis con el 95% de efectividad</li>
+      <li>Combinadas fijas</li>
+      <li>Picks gratis diarios</li>
     </ul>
     <a class="telegram-button" href="https://t.me/+b2BE6XaR178yNmNh" target="_blank">
       <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram" class="icon" width="24" height="24">
@@ -78,3 +94,4 @@
   </div>
 </body>
 </html>
+
