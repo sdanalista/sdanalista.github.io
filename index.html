@@ -2,9 +2,9 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SD Analista</title>
-  
+
   <!-- Pixel de Meta (Facebook) -->
   <script>
     !function(f,b,e,v,n,t,s)
@@ -22,17 +22,13 @@
     <img height="1" width="1" style="display:none"
       src="https://www.facebook.com/tr?id=3901140940216499&ev=PageView&noscript=1"/>
   </noscript>
-  <!-- Fin Pixel de Meta -->
+  <!-- Fin Pixel -->
 
-<style>
-  body {
-    margin: 0;
   <style>
     body {
       margin: 0;
-      padding: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTRxd3E4Y2JjZTZjZmh5eDk1a2U5azljM3BmMHFlZXlzY3F2eXZ0diZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VbnUQpnihPSIgIXuZv/giphy.gif');
+      background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2N3ZTh0bzR6ajhlbXVycnhrZ2ptdXF1aTdtaWhzZTNmbTg3aGg2bCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o7aCTfyhYawdOXcFW/giphy.gif');
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -41,68 +37,78 @@
     }
 
     .overlay {
-      background-color: rgba(0, 0, 0, 0.7);
-      padding: 50px 20px;
+      background-color: rgba(0, 0, 0, 0.75);
+      padding: 60px 20px;
+      margin: 0;
       min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
 
     h1 {
-      font-size: 3em;
-      color: #00BFFF;
-      margin-bottom: 10px;
+      font-size: 40px;
+      margin-bottom: 20px;
     }
 
-    h2 {
-      font-size: 1.3em;
-      font-weight: 400;
+    p {
+      font-size: 20px;
       margin-bottom: 30px;
+      line-height: 1.6;
     }
 
     ul {
-      text-align: left;
-      display: inline-block;
-      font-size: 1.1em;
-      line-height: 1.8em;
+      list-style: none;
+      padding: 0;
+      font-size: 18px;
       margin-bottom: 30px;
     }
 
-    .btn {
+    ul li::before {
+      content: "✅ ";
+      color: #00ffcc;
+    }
+
+    .button {
       display: inline-block;
       background-color: #0088cc;
       color: white;
-      padding: 15px 25px;
+      padding: 15px 30px;
       text-decoration: none;
-      font-weight: bold;
-      border-radius: 5px;
-      font-size: 1.2em;
+      border-radius: 8px;
+      font-size: 20px;
+      margin-top: 10px;
       transition: background-color 0.3s ease;
     }
 
-    .btn:hover {
-      background-color: #005f87;
+    .button:hover {
+      background-color: #006699;
     }
 
-    .icon {
-      margin-left: 10px;
-      font-size: 1.3em;
+    .telegram-icon {
+      margin-right: 8px;
     }
   </style>
 </head>
+
 <body>
   <div class="overlay">
-    <h1>SD ANALISTA 👌🏅</h1>
-    <h2>Bienvenido a SD Analista donde cada día es una oportunidad de ganar, yo ya lo estoy haciendo… ahora te toca a ti 🔥</h2>
+    <h1>SD ANALISTA 🏅</h1>
+
+    <p>
+      Bienvenido a SD Analista donde cada día es una oportunidad para ganar,<br />
+      yo ya los estoy haciendo... ahora te toca a ti 🔥
+    </p>
 
     <ul>
-      <li>✅ Los mejores análisis con el 95% de efectividad</li>
-      <li>✅ Combinadas fijas</li>
-      <li>✅ Picks gratis diarios</li>
+      <li>Los mejores análisis con el 95% de efectividad</li>
+      <li>Combinadas fijas</li>
+      <li>Picks diarios gratis</li>
     </ul>
 
-    <br />
-    <a href="https://t.me/+b2BE6XaR178yNmNh" target="_blank" class="btn">
-      Únete a mi canal gratis aquí
-      <span class="icon">📨</span> <!-- Icono estilo Telegram -->
+    <p><strong>Únete a mi canal gratis aquí</strong></p>
+    <a href="https://t.me/+b2BE6XaR178yNmNh" class="button" target="_blank">
+      <span class="telegram-icon">📲</span>Unirse al canal de Telegram
     </a>
   </div>
 </body>
