@@ -22,94 +22,120 @@
     <img height="1" width="1" style="display:none"
       src="https://www.facebook.com/tr?id=3901140940216499&ev=PageView&noscript=1"/>
   </noscript>
-  <!-- Fin Pixel -->
 
+  <!-- Estilos -->
   <style>
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2N3ZTh0bzR6ajhlbXVycnhrZ2ptdXF1aTdtaWhzZTNmbTg3aGg2bCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o7aCTfyhYawdOXcFW/giphy.gif');
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      color: white;
-      text-align: center;
+      background-color: #0d1117;
+      background-image: url('https://www.transparenttextures.com/patterns/black-linen.png');
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
     }
 
-    .overlay {
-      background-color: rgba(0, 0, 0, 0.75);
-      padding: 60px 20px;
-      margin: 0;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+    .card {
+      background: white;
+      color: #000;
+      max-width: 420px;
+      width: 90%;
+      border-radius: 20px;
+      padding: 40px 25px;
+      text-align: center;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    }
+
+    .logo {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 4px solid #0088cc;
     }
 
     h1 {
-      font-size: 40px;
+      margin: 0;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .subtitle {
+      font-size: 16px;
+      color: #555;
       margin-bottom: 20px;
     }
 
-    p {
-      font-size: 20px;
-      margin-bottom: 30px;
-      line-height: 1.6;
+    .info {
+      font-size: 15px;
+      margin-bottom: 20px;
+      line-height: 1.5;
     }
 
-    ul {
+    .info ul {
       list-style: none;
       padding: 0;
-      font-size: 18px;
-      margin-bottom: 30px;
+      margin: 15px 0;
+      text-align: left;
     }
 
-    ul li::before {
+    .info ul li::before {
       content: "✅ ";
-      color: #00ffcc;
+      color: green;
+    }
+
+    .effectivity {
+      color: green;
+      font-weight: bold;
+      margin: 10px 0 25px;
     }
 
     .button {
-      display: inline-block;
       background-color: #0088cc;
       color: white;
-      padding: 15px 30px;
+      padding: 14px 20px;
+      border: none;
+      border-radius: 10px;
+      font-size: 17px;
+      cursor: pointer;
       text-decoration: none;
-      border-radius: 8px;
-      font-size: 20px;
-      margin-top: 10px;
-      transition: background-color 0.3s ease;
+      display: inline-block;
     }
 
     .button:hover {
-      background-color: #006699;
+      background-color: #0071aa;
     }
 
-    .telegram-icon {
-      margin-right: 8px;
+    .footer-text {
+      margin-top: 20px;
+      font-size: 13px;
+      color: #666;
     }
   </style>
 </head>
-
 <body>
-  <div class="overlay">
-    <h1>SD ANALISTA 🏅</h1>
+  <div class="card">
+    <img src="https://i.ibb.co/By5KWfK/sdlogo.png" alt="Logo SD" class="logo" />
+    <h1>SD ANALISTA</h1>
+    <p class="subtitle">PRONÓSTICOS DEPORTIVOS 🏅</p>
+    
+    <div class="info">
+      <p>Bienvenido a SD Analista donde cada día es una oportunidad para ganar, yo ya los estoy haciendo... ahora te toca a ti 🔥</p>
+      <ul>
+        <li>Los mejores análisis con el 95% de efectividad</li>
+        <li>Combinadas fijas</li>
+        <li>Picks diarios gratis</li>
+      </ul>
+    </div>
 
-    <p>
-      Bienvenido a SD Analista donde cada día es una oportunidad para ganar,<br />
-      yo ya los estoy haciendo... ahora te toca a ti 🔥
-    </p>
+    <div class="effectivity">95% EFECTIVIDAD VERIFICADA</div>
 
-    <ul>
-      <li>Los mejores análisis con el 95% de efectividad</li>
-      <li>Combinadas fijas</li>
-      <li>Picks diarios gratis</li>
-    </ul>
+    <a href="https://t.me/+b2BE6XaR178yNmNh" target="_blank" class="button">📲 ÚNETE GRATIS AQUÍ</a>
 
-    <p><strong>Únete a mi canal gratis aquí</strong></p>
-    <a href="https://t.me/+b2BE6XaR178yNmNh" class="button" target="_blank">
-      <span class="telegram-icon">📲</span>Unirse al canal de Telegram
-    </a>
+    <p class="footer-text">Esta es una invitación para unirte a SD ANALISTA. Haz click en el botón para unirte.</p>
   </div>
 </body>
 </html>
